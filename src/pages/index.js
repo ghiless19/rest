@@ -1,7 +1,7 @@
 import * as React from 'react'
 import itemsList from '../components/itemList';
 import {containerCard, header, card, container, photo} from "../components/layout.module.css" 
-import restaurant from "../../public/images/restaurant.png"
+import restaurant from "./restaurant.png"
 
 const HomePage = () => {
   return(
