@@ -54,9 +54,7 @@
     margin-right: auto;
     width: 85%;
   }
-  .card-top {
-   background-color: #1abc9c;
-  }
+
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
