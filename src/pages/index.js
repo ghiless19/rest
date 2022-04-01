@@ -1,14 +1,14 @@
 import * as React from 'react'
 import itemsList from '../components/itemList';
 import {containerCard, header, card, container, photo} from "../components/layout.module.css" 
-import restaurant from "./restaurant.png"
+
 
 const HomePage = () => {
   return(
       <main>
         <div className={header}>
           <h1>Welcome to MultiCuisine</h1>
-          <img src={restaurant} alt='restaurant'  />
+          <img src='/images/restaurant.png' alt='restaurant'  />
             <h2>Menu List</h2>
         </div>
         <div className={container}>
