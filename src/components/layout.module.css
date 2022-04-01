@@ -1,24 +1,12 @@
 .container {
-  margin: auto;
-  max-width: 700px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   font-family: sans-serif;
-  
 }
-h1{
-  text-align: center;
-  font-size: 30px;
-}
-.priceTag{
-  text-align: right;
-  padding-right: 10px;
-}
-.nameTag{
-  text-align: left;
-}
-  .title {
+  .header {
     padding: 60px;
     text-align: center;
-    background: #392020;
+    background: #1abc9c;
     color: white;
     font-size: 30px;
   }
@@ -26,8 +14,9 @@ h1{
   .photo{
     object-fit:  cover;
     height: 200px;
-    width: 200px;
-    border: 0.25rem solid hsl(360, 71%, 66%);
+    width: 100%;
+
+    border: 0.25rem  hsl(360, 71%, 66%);
     border-radius: 0.25rem;
     display: block;
   }
@@ -36,9 +25,15 @@ h1{
   .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    height: 400px;
-    width: 500px;
     transition: 0.3s;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .card-top {
+   background-color: #1abc9c;
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -50,3 +45,25 @@ h1{
   .container-card {
     padding: 2px 16px;
   }
+  .container-card-name {
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+  .container-card-price {
+    text-align: center;
+    padding-right: 10px;
+  }
+  
+h1{
+  text-align: center;
+  font-size: 30px;
+}
+.title {
+  padding: 60px;
+  text-align: center;
+  background: #ffffff;
+  color: rgb(88, 38, 38);
+  font-size: 30px;
+}  
+ 
