@@ -3,6 +3,28 @@
   grid-template-columns: auto auto auto auto;
   font-family: sans-serif;
 }
+.restaurant-part{
+  position: relative;
+  margin: 0 auto; /* Center it */
+}
+.restaurant-photo{
+  width: 100%; /* Maximum width */
+ 
+}
+.restaurant-photo:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.restaurant-title{
+  position: absolute; /* Position the background text */
+  top: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(0, 0, 0, 0.2); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  height: 99%;
+}
+
+
   .header {
     padding: 60px;
     text-align: center;
@@ -30,7 +52,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 85%;
   }
   .card-top {
    background-color: #1abc9c;
@@ -52,18 +74,21 @@
   }
   .container-card-price {
     text-align: center;
-    padding-right: 10px;
   }
   
-h1{
-  text-align: center;
-  font-size: 30px;
-}
+  h1{
+    text-align: center;
+    font-size: 90px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  h2{
+    text-align: center;
+    font-size: 30px;
+  }
 .title {
-  padding: 60px;
+  padding: 20px;
   text-align: center;
-  background: #ffffff;
-  color: rgb(88, 38, 38);
-  font-size: 30px;
+  background: #bb965b;
+  color: rgb(250, 250, 250);
 }  
  
