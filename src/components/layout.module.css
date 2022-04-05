@@ -63,15 +63,15 @@
   
   /* Add some padding inside the card container */
   .container-card {
-    padding: 2px 16px;
+   display: inline;
   }
   .container-card-name {
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 
   }
   .container-card-price {
-    text-align: center;
+    text-align: right;
   }
   
   h1{

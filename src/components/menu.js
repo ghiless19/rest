@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 import itemsList from '../components/itemList';
-import {containerCard, containerCardName, cardTop, containerCardPrice, card, container, photo} from "../components/layout.module.css" 
+import {containerCard, containerCardName, containerCardPrice, card, container, photo} from "../components/layout.module.css" 
 const Menu = () => {
     return (
         <div className={container}>
@@ -10,27 +10,29 @@ const Menu = () => {
             return(
               <div className={card}>
                 <h4 key={id}>
-                  <div >
-                    <div className={cardTop}>
-                      <img src={path} alt={name} className={photo} />
-                    </div>
+                  <div>
+                 
+                  <div>
+                    <img src={path} alt={name} className={photo} />
+                  </div>
+                    
                     <div className={containerCard}>
-                      <h4 className={containerCardName}>
-                        <span>
+                      <div className={containerCard}>
+                        <div  className={containerCardName}>
                           {name}
-                        </span>
-                      </h4>
-                      <h4  className={containerCardPrice}>
-                        <span>
+                        </div>
+                      
+                        <div className={containerCardPrice}> 
                           {price} $
-                        </span>  
-                      </h4>
+                        </div>  
+                      </div>
                       <p>
-                        <span>
+                        <div>
                           {desc}
-                        </span>
+                        </div>
                       </p>
                     </div>
+                  
                   </div>  
                 </h4>
               </div>

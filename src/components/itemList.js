@@ -40,6 +40,20 @@ const itemsList = [
         path: menu_salade,
         desc: `A Menu Salade freshly made by the MultiCuisine Restaurant `,
       },
+      {
+        id: 6,
+        name: 'Cesar Salade',
+        price: 11.99,
+        path: menu_salade,
+        desc: `A Menu Salade freshly made by the MultiCuisine Restaurant `,
+      },
+      {
+        id: 7,
+        name: 'Cesar Salade',
+        price: 11.99,
+        path: menu_salade,
+        desc: `A Menu Salade freshly made by the MultiCuisine Restaurant `,
+      },
     
   ]
   export default itemsList
